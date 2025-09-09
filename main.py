@@ -3,7 +3,7 @@ unit = weight_str[-2:]
 value = float(weight_str[:-2])
 
 if unit == "kg":
-    pounds = value * 2.2046
+    pounds = value * 22.046
     print(f"对应的英制重量为{pounds:.3f}磅")
 elif unit == "pd":
     kilograms = value / 2.2046
